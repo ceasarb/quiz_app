@@ -1,10 +1,7 @@
 import 'package:firebase_analytics/firebase_analytics.dart';
 import 'package:firebase_analytics/observer.dart';
 import 'package:flutter/material.dart';
-import 'package:quiz_app/screens/about.dart';
-import 'package:quiz_app/screens/login.dart';
-import 'package:quiz_app/screens/profile.dart';
-import 'package:quiz_app/screens/topics.dart';
+import 'package:quiz_app/screens/screens.dart';
 
 void main() => runApp(MyApp());
 

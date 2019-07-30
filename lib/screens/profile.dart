@@ -8,12 +8,12 @@ class ProfileScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    var user = Provider.of<FirebaseUser>(context);
+    // FirebaseUser user = Provider.of<FirebaseUser>(context);
 
     return Scaffold(
       appBar: AppBar(
         backgroundColor: Colors.deepOrange,
-        title: Text(user.email),
+        title: Text('profile'),
       ),
       body: Center(
         child: FlatButton(
